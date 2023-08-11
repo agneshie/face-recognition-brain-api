@@ -1,0 +1,25 @@
+{
+  "name": "section-28-lecture-337-connecting-to-the-database",
+  "version": "1.0.0",
+  "engines": {
+    "npm": "9.6.6",
+    "node": "18.16.0"
+    },
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "clarifai-nodejs-grpc": "^8.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "knex": "^2.4.2",
+    "pg": "^8.11.1"
+  }
+}
